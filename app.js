@@ -21,10 +21,10 @@ gateway.start(httpServer, {
 });
 
 var T = new Twit({
-    consumer_key: "dqGDtCAXOmnQvwXwm8g",
-    consumer_secret: "SeYAk5GCFyTK5IonXxMRJsNvHfJQAQPkIKHNdVQXw",
-    access_token: "1175951557-dcrneobSyt2YbnMpdOWpfLeUwz20qV8yoVYogHy",
-    access_token_secret: "UNAaQJvUWBZ2qb9RkaKCJwCc24hvAzLGmiypZqdgb78"
+    consumer_key: "...",
+    consumer_secret: "...",
+    access_token: "...",
+    access_token_secret: "..."
 });
 
 console.log("=====================================");
