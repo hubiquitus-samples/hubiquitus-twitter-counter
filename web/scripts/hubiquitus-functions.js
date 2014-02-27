@@ -29,7 +29,7 @@ $('#startCountingButton').click(function() {
     initCount();
 });
 
-hubiquitus.connect(endpoint, {username:'twittestIHM'});
+hubiquitus.connect(endpoint, {username:'twitcounterWeb'});
 
 displayDate = function() {
     var currentTime = new Date();
@@ -51,6 +51,6 @@ displayDate = function() {
 initCount = function() {
     counter = 0;
     $('#count').html(counter);
-    hubiquitus.send('twittestBot',  {type:'initTwit', track:  $('#trackText').val()});
+    hubiquitus.send('twitcounterBot',  {type:'initTwit', track:  $('#trackText').val()});
     displayDate();
 }
