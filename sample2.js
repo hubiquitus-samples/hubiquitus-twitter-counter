@@ -4,7 +4,7 @@ var h = require('hubiquitus-core');
 var hChannel = require('hubiquitus-channel');
 
 var logger = h.logger('hubiquitus:sample:twitterSample2');
-h.logger.enable('hubiquitus:*', 'info');
+h.logger.enable('hubiquitus:sample:twitterSample2', 'info');
 hChannel.createChannel('tweetProcessor');
 
 
