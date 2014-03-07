@@ -5,6 +5,7 @@
   "dependencies": {
     "hubiquitus-core": "0.8.*",
     "hubiquitus-gateway": "0.8.*",
+    "hubiquitus-channel": "0.8.*",
     "twit": "1.1.12",
     "express": "3.4.5"
   },
