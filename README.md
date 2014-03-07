@@ -33,6 +33,15 @@ When receiving a message, the *tweetProcessor* actor displays the tweet in log.
 
 *tweetCounterActor* counts tweets received and displays a counter.
     
+## Sample 3 :
+
+A webbapp has been added. The gateway.js allow hubiquitus clients to connect our hubiquitus container. The gateway.js file also contains a webserver (with the express module).
+
+The web page connects with the hAPI JS (*hubiquitus.js* file). See hubiquitus-functions.js for the js code used to connect our hubiquitus actors.
+
+The *tweetCounterActor* actor sends its count to the webpage client (*twitCounterWeb*).
+When clicking the reset button, a reset message is sent to *tweetCounterActor*.
+
 ## More infos
 - [Hubiquitus-core](https://github.com/hubiquitus/hubiquitus-core)
 - [Twit](https://github.com/ttezel/twit) : Twitter API Client for Node.js
